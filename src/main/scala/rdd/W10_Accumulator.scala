@@ -8,9 +8,7 @@ object W10_Accumulator extends App {
   sc.setLogLevel("ERROR")
   val myRdd = sc.textFile("src\\main\\resources\\samplefile-201014-183159.txt")
   val myaccum = sc.longAccumulator("blank lines accumulator")
-
   myRdd.foreach(x => if (x == "") myaccum.add(1))
-
   println(myaccum.value)
-
+  
 }
