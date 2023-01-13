@@ -82,4 +82,8 @@ object W11_SQlDataFrame extends App {
   denormalizedDf.write.partitionBy("load_date").bucketBy(4,"first_name")
     .format("parquet").mode("overwrite")
     .option("path", "/user/itv000285/output/emp_partitioned_c").saveAsTable("jeevichi.employee_master_c")
+
+  employeesDf.write.partitionBy("gender").bucketBy(4, "emp_no").format("parquet").mode("overwrite")
+    .option("path", "/user/itv000285/output/employee_master_part_buck").saveAsTable("jeevichi.employee_master_part_buck")
+
 }

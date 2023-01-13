@@ -10,9 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/scala" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="15" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.11" level="application" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-core_2.13:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-parallel-collections_2.13:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.avro:avro:1.10.2" level="project" />
@@ -46,6 +45,7 @@
     <orderEntry type="library" name="Maven: org.apache.curator:curator-client:2.13.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.6.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper-jute:3.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.yetus:audience-annotations:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:4.0.3" level="project" />
@@ -137,11 +137,6 @@
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-hadoop:1.12.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-format-structures:1.12.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-jackson:1.12.2" level="project" />
-    <orderEntry type="library" name="Maven: org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184" level="project" />
-    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-sec-dispatcher:1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-cipher:1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:3.2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.sonarsource.scanner.api:sonar-scanner-api:2.16.2.588" level="project" />
-    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.13.10" level="application" />
   </component>
 </module>

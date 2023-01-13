@@ -14,5 +14,4 @@ object W11_DfReadModes extends App{
   // 3. FAILFAST - thorws exception whenever spark encounters corrupted record
 
   ordersDf.show(false)
-
 }

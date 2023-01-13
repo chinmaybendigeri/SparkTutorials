@@ -18,6 +18,6 @@ object W10_LogsCount extends App {
   val logsRdd = sc.parallelize(logsData)
 
   val pairRdd = logsRdd.map(x => (x.split(":")(0), 1))
-
-  pairRdd.reduceByKey(_ + _).collect().foreach(println)
+  //pairRdd.foreach(x => println()x._1)
+  //pairRdd.reduceByKey(_ + _).collect().foreach(println)
 }
