@@ -20,4 +20,5 @@ object W11_MovieRatingsExample extends App {
   val topMovies = processedMovieRdd.join(topRatedMovies).map(x => (x._2._2.toFloat,x._2._1))
   val myMovies = topMovies.coalesce(1).sortByKey(false).foreach(println)
   System.out.println();
+
 }
