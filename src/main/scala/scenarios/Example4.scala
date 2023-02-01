@@ -35,4 +35,8 @@ object Example4 extends App{
 
   new_joinedDf.show(false)
 
+  new_joinedDf.take(2)
+
+  new_joinedDf.head(2)
+
 }
